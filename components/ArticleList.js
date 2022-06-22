@@ -1,9 +1,9 @@
 import { ArticleItem } from './ArticleItem'
-import articleStyles from '../styles/Article.module.css'
+import styles from '../styles/Article.module.css'
 
 const ArticleList = ({ articles }) => {
     return (
-        <div className={articleStyles.grid}>
+        <div className={styles.grid}>
             {articles.map((article) => (
                 // eslint-disable-next-line react/jsx-key
                 <ArticleItem article={article} />

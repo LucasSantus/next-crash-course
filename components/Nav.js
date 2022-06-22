@@ -1,9 +1,9 @@
-import navStyles from '../styles/Nav.module.css';
+import styles from '../styles/Nav.module.css';
 import Link from 'next/link';
 
 export const Nav = () => {
     return (
-        <nav className={navStyles.nav}>
+        <nav className={styles.nav}>
             <ul>
                 <li>
                     <Link href="/">Home</Link>
