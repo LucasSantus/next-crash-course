@@ -1,34 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Crash Course Next JS</h1>
 
-## Getting Started
+<!-- <h6 align="center"> 
+	Se você quiser visualizar as imagens do aplicativo, clique <a href="github/images/README.md">aqui</a>.
+</h6> -->
 
-First, run the development server:
+<h3 id="sobre">:information_source: Sobre</h3>
 
-```bash
-npm run dev
-# or
+> Este projeto foi desenvolvido utilizando o Next JS e React JS. 
+
+A ideia é:
+
+_"Criar um sistema de posts simples onde o mesmo tenha um design simples e belo, com intuito de promover o aprendizado e gerar um projeto simples utilizando o Next JS."_
+
+--------------------------------------------------------------------------------------
+
+<h3 id="tabela-de-conteudo">:ab: Tabela de Conteúdo</h3>
+
+* [Sobre](#sobre)
+* [Tabela de Conteudo](#tabela-de-conteudo)
+* [Status do Projeto](#status)
+* [Por Que](#por-que)
+* [Tecnologias](#tecnologias)
+* [Instalação do Projeto](#instalando)
+    * [Clonando Repositório](#clonando)
+    * [Rodando Projeto](#rodando)
+* [Autor](#autor)
+* [Licença](#license)
+
+--------------------------------------------------------------------------------------
+
+<h3 id="status">:heavy_exclamation_mark: Status do Projeto</h3>
+
+<h4 align="center"> 
+	✔️ Sistema Web finalizado... ✔️
+</h4>
+
+--------------------------------------------------------------------------------------
+
+<h3 id="por-que">:question: Por Que</h3>
+
+Este projeto faz parte do meu portfólio pessoal, ficarei feliz caso você forneça algum feedback, código, estrutura, funcionalidade ou qualquer funcionalidade&melhoria que você possa relatar para melhora-lo.
+
+Você pode usar este projeto como quiser, seja para estudar, fazer melhorias, você que manda!
+
+Este é um projeto totalmente grátis!
+
+--------------------------------------------------------------------------------------
+
+<h3 id="tecnologias">:rocket: Tecnologias</h3>
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Next JS]([https://www.djangoproject.com/](https://nextjs.org/))
+- [React]([https://getbootstrap.com/docs/5.0/getting-started/introduction/](https://pt-br.reactjs.org/))
+
+--------------------------------------------------------------------------------------
+
+<h3 id="instalando">:computer: Instalando o Projeto</h3>
+
+<h4 id="clonando">Clonando o Repositório</h4>
+
+```
+git clone git@github.com:LucasSantus/next-crash-course.git
+
+cd next-crash-course
+```
+
+<h4 id="rodando">Rodando o Projeto</h4>
+
+```
+yarn install
+
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+--------------------------------------------------------------------------------------
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<h3 id="autor">:bust_in_silhouette: Autor</h3>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<table>
+	<tr>
+		<td>
+			<div> 
+				<a href="https://github.com/LucasSantus">
+					<img style="border-radius: 50%;" src="https://github.com/LucasSantus.png" width="100px;" alt=""/>
+					<br />
+					Lucas Santus
+				</a>
+			</div>
+		</td>
+	</tr>
+</table>
+<br />
+Feito com ❤️ por Lucas Santus!<br />
+Obrigado por visitar e boa codificação!<br />
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+--------------------------------------------------------------------------------------
 
-## Learn More
+<h3 id="license">:memo: License</h3>
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto está licenciado sob a Licença MIT License - veja o [LICENSE.md](https://github.com/LucasSantus/next-crash-course/blob/master/LICENSE) para melhores detalhes.
