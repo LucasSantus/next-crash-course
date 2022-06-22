@@ -1,5 +1,6 @@
 import styles from '../styles/Layout.module.css';
-import { Nav } from './Nav'
+import { Nav } from './Nav';
+import { Header } from './Header';
 
 export const Layout = ({children}) => {
     return (
@@ -7,6 +8,7 @@ export const Layout = ({children}) => {
             <Nav />
             <div className={styles.container}>
                 <main className={styles.main}>
+                    <Header />
                     {children}
                 </main>
             </div>
