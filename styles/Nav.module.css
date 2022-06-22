@@ -1,4 +1,4 @@
-.nav{
+.nav {
     height: 50px;
     padding: 10px;
     background: #000;
@@ -8,13 +8,13 @@
     justify-content: flex-start;
 }
 
-.nav ul{
+.nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
 }
 
-.nav ul li a{
+.nav ul li a {
     margin: 5px 15px;
 }
