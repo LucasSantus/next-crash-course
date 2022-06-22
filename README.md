@@ -51,8 +51,8 @@ Este é um projeto totalmente grátis!
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Next JS]([https://www.djangoproject.com/](https://nextjs.org/))
-- [React]([https://getbootstrap.com/docs/5.0/getting-started/introduction/](https://pt-br.reactjs.org/))
+- [Next JS](https://nextjs.org/)
+- [React](https://pt-br.reactjs.org/)
 
 --------------------------------------------------------------------------------------
 
