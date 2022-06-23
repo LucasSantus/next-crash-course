@@ -6,7 +6,7 @@ const ArticleList = ({ articles }) => {
         <div className={styles.grid}>
             {articles.map((article) => (
                 // eslint-disable-next-line react/jsx-key
-                <ArticleItem article={article} />
+                <ArticleItem key={article.id} article={article} />
             ))}
         </div>
     )
