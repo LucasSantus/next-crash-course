@@ -10,7 +10,15 @@ export default function Home({ articles }) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`${server}/api/articles`)
+  const res = await fetch(`${server}/api/articles`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+      'User-Agent': '*',
+    },
+  });
+
   const articles = await res.json()
 
   return {
