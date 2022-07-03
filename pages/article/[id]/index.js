@@ -44,13 +44,13 @@ export const getStaticPaths = async () => {
     },
   });
 
-  let articles = await res.json()
+  let articles = res.json()
 
-  let ids = [];
-    articles.forEach(element => {
-      ids.push(element.id)
-    });
-  // ids = articles.map((item) => item.id )
+  // let ids = [];
+  //   articles.forEach(element => {
+  //     ids.push(element.id)
+  //   });
+  const ids = await articles.map((item) => item.id )
 
   const paths = ids.map((id) => ({ params: { id: id.toString() } }))
 
